@@ -133,7 +133,7 @@ printNames(names)
 
 const retakeTest = (score) => {
     let attempt = 1
-  do{  console.log(`In the ${attempt}  attempt the score is ${score}`)
+  do{  console.log(`In attempt ${attempt} the score is ${score}`)
     score += 10 
     attempt ++
     
